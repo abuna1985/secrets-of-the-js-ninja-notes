@@ -598,7 +598,6 @@ If we have a different number of arguments than parameters, no error is raised. 
 This example shows that arguments are assigned to function parameters in the order specified. Excess arguments aren't assigned to any parameter
 
 ```js
-// TODO : Finish this function
 function muppetDescription(muppet, profession, catchphrase) {...}
 
 // Argument "Fozzie Bear" is assigned to parameter muppet
