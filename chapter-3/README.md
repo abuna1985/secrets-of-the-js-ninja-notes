@@ -28,10 +28,15 @@
   - [3.5 Summary](#35-summary)
   - [3.6 Exercises](#36-exercises)
     - [1. In the following code snippet, Which functions are callbacks?](#1-in-the-following-code-snippet-which-functions-are-callbacks)
+      - [Answer for Question 1](#answer-for-question-1)
     - [2. In the following snippet, categorize functions according to their type (function declaration, function expression, or arrow function).](#2-in-the-following-snippet-categorize-functions-according-to-their-type-function-declaration-function-expression-or-arrow-function)
+      - [Answer for Question 2](#answer-for-question-2)
     - [3. After executing the following code snippet, what are the values of variables muppetCharacter and sesameStreetCharacter?](#3-after-executing-the-following-code-snippet-what-are-the-values-of-variables-muppetcharacter-and-sesamestreetcharacter)
+      - [Answer for Question 3](#answer-for-question-3)
     - [4. Within the body of the test function, what are the values of parameters a, b, and c for the two function calls?](#4-within-the-body-of-the-test-function-what-are-the-values-of-parameters-a-b-and-c-for-the-two-function-calls)
+      - [Answer for Question 4](#answer-for-question-4)
     - [5. After executing the following code snippet, what are the values of the message1 and message2 variables?](#5-after-executing-the-following-code-snippet-what-are-the-values-of-the-message1-and-message2-variables)
+      - [Answer for Question 5](#answer-for-question-5)
 
 ## Chapter Overview
 
@@ -780,9 +785,10 @@ myButton.addEventListener("click", function handleClick(){
 alert("Clicked");
 });
 ```
+#### Answer for Question 1
 
 <details>
-  <summary>Click Here for Answer to Question #1</summary>
+  <summary><strong>Click Here for Answer to Question #1</strong></summary>
 
   ```js
   // In the following code snippet, Which functions are callbacks?
@@ -807,6 +813,7 @@ alert("Clicked");
   });
   ```
 </details>
+<br>
 
 ### 2. In the following snippet, categorize functions according to their type (function declaration, function expression, or arrow function).
 
@@ -835,8 +842,10 @@ function outer(){
 (()=>"Kermit")();
 ```
 
+#### Answer for Question 2 
+
 <details>
-  <summary>Click Here for Answer to Question #2</summary>
+  <summary><strong>Click Here for Answer to Question #2</strong></summary>
 
   ```js
   // In the following snippet, categorize functions according to their type (function declaration, function expression, or arrow function).
@@ -871,7 +880,7 @@ function outer(){
   (()=>"Kermit")();
   ```
 </details>
-
+<br>
 
 ### 3. After executing the following code snippet, what are the values of variables muppetCharacter and sesameStreetCharacter?
 
@@ -882,9 +891,10 @@ const muppetCharacter = (() => "Kermit")();
 // B
 const sesameStreetCharacter = (() => {"Big Bird"})();
 ```
+#### Answer for Question 3
 
 <details>
-  <summary>Click Here for Answer to Question #3</summary>
+  <summary><strong>Click Here for Answer to Question #3</strong></summary>
 
   ```js
   // After executing the following code snippet, what are the values of variables muppetCharacter and sesameStreetCharacter?
@@ -902,7 +912,7 @@ const sesameStreetCharacter = (() => {"Big Bird"})();
   console.log(sesameStreetCharacter) // prints undefined
   ```
 </details>
-
+<br>
 
 ### 4. Within the body of the test function, what are the values of parameters a, b, and c for the two function calls?
 
@@ -916,8 +926,10 @@ test(1, 2, 3, 4, 5);
 test();
 ```
 
+#### Answer for Question 4
+
 <details>
-  <summary>Click Here for Answer to Question #4</summary>
+  <summary><strong>Click Here for Answer to Question #4</strong></summary>
 
   ```js
   // Within the body of the test function, what are the values of parameters a, b, and c for the two function calls?
@@ -932,6 +944,7 @@ test();
   test();
   ```
 </details>
+<br>
 
 ### 5. After executing the following code snippet, what are the values of the message1 and message2 variables?
 ```js
@@ -946,8 +959,10 @@ var message1 = getRandomMuppetWithAction("Gonzo");
 var message2 = getRandomMuppetWithAction("Rowlf", "playing piano");
 ```
 
+#### Answer for Question 5
+
 <details>
-  <summary>Click Here for Answer to Question #5</summary>
+  <summary><strong>Click Here for Answer to Question #5</strong></summary>
 
   ```js
   // After executing the following code snippet, what are the values of the message1 and message2 variables?
