@@ -948,7 +948,7 @@ test();
 ### 5. After executing the following code snippet, what are the values of the message1 and message2 variables?
 ```js
 function getRandomMuppetWithAction(muppet, action = "sleeping"){
-return muppet + " " + sleeping;
+  return `${muppet} ${action}`;
 }
 
 // A
@@ -966,7 +966,7 @@ var message2 = getRandomMuppetWithAction("Rowlf", "playing piano");
   ```js
   // After executing the following code snippet, what are the values of the message1 and message2 variables?
   function getMuppetWithAction(muppet, action = "sleeping"){
-  return muppet + " " + action;
+    return `${muppet} ${action}`;
   }
 
   //A
